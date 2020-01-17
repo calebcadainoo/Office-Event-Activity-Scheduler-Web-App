@@ -1,0 +1,110 @@
+body, html{
+	width: 100%;
+	height: 100%;
+	background: #ededed;
+	cursor: default;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}input:focus, select:focus {
+    outline: none;
+}
+
+/*custom grids*/
+.centroid, .centroid_900, .centroid_700, .centroid_500{
+	max-width: 1200px;
+	margin: auto !important;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.centroid_900{
+	max-width: 900px;
+}
+
+.centroid_700{
+	max-width: 700px;
+}
+
+.centroid_500{
+	max-width: 500px;
+}
+
+.stretch{
+	transform: scale(1, 1.2);
+	-webkit-transform: scale(1, 1.2);
+}
+/*spacer*/
+.spacerA{
+	height: 70px;
+}.spacerB{
+	height: 30px;
+}
+
+/*liners*/
+.liner1{
+	width: 120px;
+	height: 2px;
+	background: #003398;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.straight_liner{
+	width: 100%;
+	height: 1px;
+	background: #545454;
+	margin: 30px 0;
+}
+
+/*grids*/
+.grid-1 {width: 8.33%;}
+.grid-2 {width: 16.66%;}
+.grid-3 {width: 25%;}
+.grid-4 {width: 33.33%;}
+.grid-5 {width: 41.66%;}
+.grid-6 {width: 50%;}
+.grid-7 {width: 58.33%;}
+.grid-8 {width: 66.66%;}
+.grid-9 {width: 75%;}
+.grid-10 {width: 83.33%;}
+.grid-11 {width: 91.66%;}
+.grid-12 {width: 100%;}
+
+[class*="grid-"] {
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.grid_container{
+	overflow: auto;
+	padding-top: 30px;
+}
+
+/*float clearer*/
+.front_clrfx{
+	clear: both;
+	float: none;
+}
+
+/*image preprocessor*/
+.imgfx{overflow: hidden;}
+.imgfx img{
+	max-width: 100%;
+	min-height: 100%;
+}
+
+.imgfxA{position: relative;}
+.imgfxA img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+.hidebx{
+	display: none;
+}
+/*end of custom grids*/
